@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+MAX_MSG_LEN	artik_mqtt_cloud_test.c	7;"	d	file:
+MAX_UUID_LEN	artik_mqtt_cloud_test.c	8;"	d	file:
+akc_root_ca	artik_mqtt_cloud_test.c	/^static const char *akc_root_ca =$/;"	v	file:
+device_id	artik_mqtt_cloud_test.c	/^static char device_id[MAX_UUID_LEN] = "21d655fee9c84d5f9367a5a2912ec957";$/;"	v	file:
+loop	artik_mqtt_cloud_test.c	/^static artik_loop_module *loop = NULL;$/;"	v	file:
+main	artik_mqtt_cloud_test.c	/^int main(int argc, char *argv[])$/;"	f
+mqtt	artik_mqtt_cloud_test.c	/^static artik_mqtt_module *mqtt = NULL;$/;"	v	file:
+on_connect_subscribe	artik_mqtt_cloud_test.c	/^void on_connect_subscribe(artik_mqtt_config *client_config, void *user_data, artik_error result)$/;"	f
+on_disconnect	artik_mqtt_cloud_test.c	/^void on_disconnect(artik_mqtt_config *client_config, void *user_data, artik_error result)$/;"	f
+on_message_disconnect	artik_mqtt_cloud_test.c	/^void on_message_disconnect(artik_mqtt_config *client_config, void *user_data, artik_mqtt_msg *msg)$/;"	f
+on_publish	artik_mqtt_cloud_test.c	/^void on_publish(artik_mqtt_config *client_config, void *user_data, int result)$/;"	f
+pub_msg	artik_mqtt_cloud_test.c	/^static char pub_msg[MAX_MSG_LEN] = "{\\"test_success\\" : \\"true\\"}";$/;"	v	file:
+token	artik_mqtt_cloud_test.c	/^static char token[MAX_UUID_LEN] = "481a07dc168b4b80b0e5e3c642766bbe";$/;"	v	file:
